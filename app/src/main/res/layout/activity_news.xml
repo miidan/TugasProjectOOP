@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_news"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.pro.pcmappnew.NewsActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin">
+
+            <TextView
+                android:id="@+id/textView0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Coming Soon, Platform Jual-Beli Game Online!"
+                android:textColor="@color/colorPrimary"
+                android:textSize="25sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sebagai bentuk apresiasi kami. Bersiaplah bagi Anda Pelanggan setia, PetaniCM, akan segera hadir platform khusus jual-beli game online yang kami sediakan. yang akan memudahkan anda mencari kebutuhan item-item game online yang anda perlukan. Selain itu, anda juga dapat menjual item-item game anda dengan bebas." />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+            <ImageView
+                android:layout_width="402dp"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/news"
+                android:layout_gravity="center"
+                android:layout_weight="0.14" />
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Stay tune..."
+                android:textStyle="italic"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

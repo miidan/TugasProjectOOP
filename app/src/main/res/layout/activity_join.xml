@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:support="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".JoinActivity"
+    android:weightSum="1">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama Lengkap" />
+    <EditText
+        android:id="@+id/join_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint=""
+        android:textSize="14dp"
+        android:inputType="text" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nomor KTP/SIM/Kartu Pelajar" />
+    <EditText
+        android:id="@+id/join_idnumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint=""
+        android:textSize="14dp"
+        android:inputType="number" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email" />
+    <EditText
+        android:id="@+id/join_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint=""
+        android:textSize="14dp"
+        android:inputType="textEmailAddress" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phonenumber" />
+    <EditText
+        android:id="@+id/join_phonenumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint=""
+        android:textSize="14dp"
+        android:inputType="phone" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alamat" />
+    <EditText
+        android:id="@+id/join_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint=""
+        android:textSize="14dp"
+        android:inputType="textMultiLine"
+        android:layout_weight="0.63" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tanggal Lahir" />
+    <EditText
+        android:id="@+id/join_birthdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="DD/MM/YY"
+        android:textSize="14dp"
+        android:inputType="date" />
+    <!--
+        <RadioGroup
+            android:id="@+id/rb_ordertype"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rb_igc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="In Game Currency" />
+
+            <RadioButton
+                android:id="@+id/rb_item"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Item" />
+
+            <RadioButton
+                android:id="@+id/rb_gamequest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Game's Quest" />
+
+            <RadioButton
+                android:id="@+id/rb_otherrequest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Other Request" />
+
+        </RadioGroup>
+    -->
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="15dp" />
+
+
+    <Button
+        android:id="@+id/btn_test2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="Join Now"
+        android:background="@color/colorAccent"
+        android:textColor="@color/colorGold"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:elevation="0dp" />
+</LinearLayout>
